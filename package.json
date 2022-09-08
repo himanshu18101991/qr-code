@@ -1,0 +1,15 @@
+{
+  "name": "qr-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd client && npm run start\" \"cd server && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.4.0",
+    "react-router-dom": "^6.3.0"
+  }
+}
